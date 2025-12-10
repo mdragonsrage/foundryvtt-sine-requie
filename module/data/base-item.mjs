@@ -1,0 +1,14 @@
+import SineRequieDataModel from "./base-model.mjs";
+
+export default class SineRequieItemBase extends SineRequieDataModel {
+
+  static defineSchema() {
+    const fields = foundry.data.fields;
+    const schema = {};
+
+    schema.description = new fields.StringField({ required: true, blank: true });
+
+    return schema;
+  }
+
+}

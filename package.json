@@ -1,0 +1,21 @@
+{
+  "name": "sine-requie",
+  "version": "2.0.0",
+  "description": "CSS compiler for the SineRequie system",
+  "scripts": {
+    "build": "sass src/scss/sine-requie.scss css/sine-requie.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/sine-requie.scss css/sine-requie.css --style=expanded --source-map --watch"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Asacolips",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "sass-loader": "^16.0.6"
+  }
+}
