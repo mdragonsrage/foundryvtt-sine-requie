@@ -1,0 +1,41 @@
+{
+  "SINE_REQUIE": {
+    "Ability": {
+      "Str": { "long": "Forza", "abbr": "str" },
+      "Con": { "long": "Costituzione", "abbr": "con" },
+      "Dex": { "long": "Destrezza", "abbr": "dex" },
+      "Int": { "long": "Intelligenza", "abbr": "int" },
+      "Wis": { "long": "Saggezza", "abbr": "wis" },
+      "Cha": { "long": "Carisma", "abbr": "cha" }
+    },
+    "SheetLabels": {
+      "Actor": "Sine Requie Scheda del Personaggio",
+      "Item": "Sine Requie Scheda dell'Oggetto"
+    },
+    "Item": {
+      "Spell": {
+        "SpellLVL": "Incantesimo di Livello {level}",
+        "AddLVL": "Aumenta di {level} livelli"
+      }
+    },
+    "Effect": {
+      "Source": "Origine",
+      "Toggle": "Attiva/Disattiva Efftto",
+      "Temporary": "Effetti Temporanei",
+      "Passive": "Effecti passivi",
+      "Inactive": "Effecti Inattivi"
+    }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "character": "Personaggio",
+      "npc": "NPC"
+    },
+    "Item": {
+      "item": "Oggetto",
+      "feature": "Abilità",
+      "spell": "Incantesimo"
+    }
+  }
+}
