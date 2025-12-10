@@ -1,29 +1,46 @@
 {
   "SINE_REQUIE": {
     "Ability": {
-      "Str": { "long": "Forza", "abbr": "str" },
-      "Con": { "long": "Costituzione", "abbr": "con" },
-      "Dex": { "long": "Destrezza", "abbr": "dex" },
-      "Int": { "long": "Intelligenza", "abbr": "int" },
-      "Wis": { "long": "Saggezza", "abbr": "wis" },
-      "Cha": { "long": "Carisma", "abbr": "cha" }
+      "Int": { "long": "Intuito", "abbr": "ins" },
+      "Mem": { "long": "Memoria", "abbr": "mem" },
+      "Per": { "long": "Percezione", "abbr": "per" },
+      "Vol": { "long": "Volontà", "abbr": "will" },
+      "Cre": { "long": "Creatività", "abbr": "cre" },
+      "Com": { "long": "Comando", "abbr": "lea" },
+      "Soc": { "long": "Socievolezza", "abbr": "soc" },
+      "Coord": { "long": "Coordinazione", "abbr": "coo" },
+      "Des": { "long": "Destrezza Manuale", "abbr": "dex" },
+      "For": { "long": "Forza Fisica", "abbr": "phys" },
+      "Mir": { "long": "Mira", "abbr": "aim" },
+      "Occ": { "long": "Occulto", "abbr": "occ" },
+      "Dist": { "long": "Distanza dalla Morte", "abbr": "ddi" },
+      "Eq": { "long": "Equilibrio mentale", "abbr": "eq" },
+      "Karma": { "long": "Karma", "abbr": "karma" }
     },
     "SheetLabels": {
       "Actor": "Sine Requie Scheda del Personaggio",
       "Item": "Sine Requie Scheda dell'Oggetto"
     },
     "Item": {
-      "Spell": {
-        "SpellLVL": "Incantesimo di Livello {level}",
-        "AddLVL": "Aumenta di {level} livelli"
+      "Base": {
+        "Name": "Nome",
+        "Desc": "Note"
+      },
+      "Weapon": {
+        "Attribute": "Abilità",
+        "Actions": "Azioni",
+        "Req": "Requisito",
+        "Dmg": "Danno"
+      },
+      "Armor": {
+        "Loc": "Locazione",
+        "Prot": "Protection Points",
+        "Malus": "Malus"
+      },
+      "Equip": {
+        "Price": "Prezzo",
+        "Qty": "Quantità"
       }
-    },
-    "Effect": {
-      "Source": "Origine",
-      "Toggle": "Attiva/Disattiva Efftto",
-      "Temporary": "Effetti Temporanei",
-      "Passive": "Effecti passivi",
-      "Inactive": "Effecti Inattivi"
     }
   },
 
@@ -33,9 +50,9 @@
       "npc": "NPC"
     },
     "Item": {
-      "item": "Oggetto",
-      "feature": "Abilità",
-      "spell": "Incantesimo"
+      "weapon": "Armi",
+      "armor": "Armatura",
+      "equip": "Equipaggiamento"
     }
   }
 }

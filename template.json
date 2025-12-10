@@ -1,8 +1,72 @@
 {
   "Actor": {
-    "types": ["character", "npc"]
+    "types": ["character", "npc"],
+    "templates": {
+      "base": {
+        "name": "",
+        "attributes": {
+          "ins": 1,
+          "mem": 1,
+          "per": 1,
+          "will": 1,
+          "cha": 1,
+          "lea": 1,
+          "cre": 1,
+          "soc": 1,
+          "coo": 1,
+          "dex": 1,
+          "phys": 1,
+          "aim": 1,
+          "occ": 1,
+          "ddi": 1,
+          "eq": 1,
+          "karma": 6
+        }
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "tarot": "",
+      "age": 20,
+      "job": "",
+      "merits": "",
+      "flaws": ""
+    },
+    "npc": {
+      "templates": ["base"]
+    }
   },
   "Item": {
-    "types": ["item", "feature", "spell"]
+    "types": ["weapon", "armor", "equip"],
+    "templates": {
+      "base": {
+        "name": "",
+        "desc": ""
+      },
+      "weapon": {
+        "attribute": "Rissa",
+        "actions": 1,
+        "req": "phys 3",
+        "dmg": "B-1"
+      },
+      "armor": {
+        "loc": "Head",
+        "prot": 1,
+        "malus": "-"
+      },
+      "equip": {
+        "price": "100",
+        "qty": 1
+      }
+    },
+    "weapon": {
+      "templates": ["base", "weapon"]
+    },
+    "armor": {
+      "templates": ["base", "armor"]
+    },
+    "equip": {
+      "templates": ["base", "equip"]
+    }
   }
 }

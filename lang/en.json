@@ -1,29 +1,46 @@
 {
   "SINE_REQUIE": {
     "Ability": {
-      "Str": { "long": "Strength", "abbr": "str" },
-      "Con": { "long": "Constitution", "abbr": "con" },
-      "Dex": { "long": "Dexterity", "abbr": "dex" },
-      "Int": { "long": "Intelligence", "abbr": "int" },
-      "Wis": { "long": "Wisdom", "abbr": "wis" },
-      "Cha": { "long": "Charisma", "abbr": "cha" }
+      "Ins": { "long": "Insight", "abbr": "ins" },
+      "Mem": { "long": "Memory", "abbr": "mem" },
+      "Per": { "long": "Perception", "abbr": "per" },
+      "Will": { "long": "Willpower", "abbr": "will" },
+      "Cre": { "long": "Creativity", "abbr": "cre" },
+      "Lead": { "long": "Leadership", "abbr": "lea" },
+      "Soc": { "long": "Sociability", "abbr": "soc" },
+      "Coord": { "long": "Coordination", "abbr": "coo" },
+      "Dex": { "long": "Manual dexterity", "abbr": "dex" },
+      "Phys": { "long": "Physical Strength", "abbr": "phys" },
+      "Aim": { "long": "Aim", "abbr": "aim" },
+      "Occ": { "long": "Occult", "abbr": "occ" },
+      "Dist": { "long": "Distance from Death", "abbr": "ddi" },
+      "Bal": { "long": "Mental Balance", "abbr": "eq" },
+      "Karma": { "long": "Karma", "abbr": "karma" }
     },
     "SheetLabels": {
-      "Actor": "SineRequie Actor Sheet",
-      "Item": "SineRequie Item Sheet"
+      "Actor": "Sine Requie Actor Sheet",
+      "Item": "Sine Requie Item Sheet"
     },
     "Item": {
-      "Spell": {
-        "SpellLVL": "Level {level} Spells",
-        "AddLVL": "Add LVL {level}"
+      "Base": {
+        "Name": "Name",
+        "Desc": "Notes"
+      },
+      "Weapon": {
+        "Attribute": "Attribute",
+        "Actions": "Actions",
+        "Req": "Requisite",
+        "Dmg": "Damage"
+      },
+      "Armor": {
+        "Loc": "Location",
+        "Prot": "Protection Points",
+        "Malus": "Malus"
+      },
+      "Equip": {
+        "Price": "Price",
+        "Qty": "Quantity"
       }
-    },
-    "Effect": {
-      "Source": "Source",
-      "Toggle": "Toggle Effect",
-      "Temporary": "Temporary Effects",
-      "Passive": "Passive Effects",
-      "Inactive": "Inactive Effects"
     }
   },
 
@@ -33,9 +50,9 @@
       "npc": "NPC"
     },
     "Item": {
-      "item": "Item",
-      "feature": "Feature",
-      "spell": "Spell"
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "equip": "Equip"
     }
   }
 }
